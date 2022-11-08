@@ -2,20 +2,33 @@
   <div class="container">
     <header>
       <h1>Quizes</h1>
-      <input type="text" placeholder="Search...">
+      <input v-model.trim="search" type="text" placeholder="Search...">
 
     </header>
     <div class="options-container">
-      <div class="card">
-          <img src="https://img.freepik.com/free-vector/chalkboard-with-math-elements_1411-88.jpg" alt="">
+      <div v-for="quiz in quizes" :key="quiz.id" class="card">
+          <img :src="quiz.img" alt="">
           <div class="card-text">
-            <h2>Math</h2>
-            <p>15 questions</p>
+            <h2>{{ quiz.name }}</h2>
+            <p>{{quiz.questions.length}} questions</p>
           </div>
       </div>
     </div>
   </div>
 </template>
+
+<script setup>
+import { ref , watch } from 'vue';
+import qData from './data/quizes.json'
+
+const quizes = ref(qData);
+const search = ref("");
+
+watch(search,  ()=>{
+  quizes.value = qData.filter(quiz=>quiz.name.toLowerCase().includes(search.value.toLowerCase()))
+})
+
+</script>
 
 
 <style scoped>
