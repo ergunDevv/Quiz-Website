@@ -1,12 +1,15 @@
 <script setup>
+import { defineProps } from 'vue';
 
+const props = defineProps(['question'])
+console.log(props)
 </script>
 
 
 <template>
   <div>
     <div class="question-container">
-      <h1 class="question">What is the chemical value of table salt?</h1>
+      <h1 class="question">{{props.question.text}}</h1>
     </div>
     <div class="options-container">
       <div class="option">
