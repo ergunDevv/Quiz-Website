@@ -1,15 +1,21 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-import App from '../App.vue'
+import QuizesView from "../views/QuizesView.vue";
+import QuizView from "../views/QuizView.vue";
 
 const router = createRouter({
-    history:createWebHistory(process.env.BASE_URL),
-    routes:[        {
-        path:"/",
-        name:"home",
-        component:App
+  history: createWebHistory(process.env.BASE_URL),
+  routes: [
+    {
+      path: "/",
+      name: "quizes",
+      component: QuizesView,
     },
-
-    ]
-})
-export default router
+    {
+      path: "/quiz/:id",
+      name: "quiz",
+      component: QuizView,
+    },
+  ],
+});
+export default router;
