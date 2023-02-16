@@ -93,7 +93,128 @@
                         "isCorrect": false
                     }
                 ]
+            },
+            {
+                "id": 4,
+                "text": "What is the value of x in the equation 3x + 5 = 14?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "3",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "4",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "5",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "6",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "What is the sum of the first 10 odd numbers?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "50",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "55",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "60",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "65",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "text": "Solve for x: 2x - 5 = 7x + 8",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "-2",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "-3",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "-4",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "-5",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "text": "What is the perimeter of a rectangle with sides of 5 and 8?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "10",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "16",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "26",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "40",
+                        "isCorrect": false
+                    }
+                ]
             }
+            
         ]
     },
     {
@@ -289,5 +410,133 @@
                 ]
             }
         ]
-    }
+    },
+    {
+        "id": 4,
+        "img": "https://images.pexels.com/photos/214749/pexels-photo-214749.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "name": "Physics",
+        "questions": [
+        {
+        "id": 1,
+        "text": "What is the formula for calculating force?",
+        "options": [
+        {
+        "id": 1,
+        "label": "A",
+        "text": "F = ma",
+        "isCorrect": true
+        },
+        {
+        "id": 2,
+        "label": "B",
+        "text": "F = mv",
+        "isCorrect": false
+        },
+        {
+        "id": 3,
+        "label": "C",
+        "text": "F = ms",
+        "isCorrect": false
+        },
+        {
+        "id": 4,
+        "label": "D",
+        "text": "F = me",
+        "isCorrect": false
+        }
+        ]
+        },
+        {
+        "id": 2,
+        "text": "What is the unit of measurement for frequency?",
+        "options": [
+        {
+        "id": 1,
+        "label": "A",
+        "text": "Hertz",
+        "isCorrect": true
+        },
+        {
+        "id": 2,
+        "label": "B",
+        "text": "Joule",
+        "isCorrect": false
+        },
+        {
+        "id": 3,
+        "label": "C",
+        "text": "Newton",
+        "isCorrect": false
+        },
+        {
+        "id": 4,
+        "label": "D",
+        "text": "Watt",
+        "isCorrect": false
+        }
+        ]
+        },
+        {
+        "id": 3,
+        "text": "What is the SI unit of electric current?",
+        "options": [
+        {
+        "id": 1,
+        "label": "A",
+        "text": "Ampere",
+        "isCorrect": true
+        },
+        {
+        "id": 2,
+        "label": "B",
+        "text": "Volt",
+        "isCorrect": false
+        },
+        {
+        "id": 3,
+        "label": "C",
+        "text": "Ohm",
+        "isCorrect": false
+        },
+        {
+        "id": 4,
+        "label": "D",
+        "text": "Watt",
+        "isCorrect": false
+        }
+        ]
+        },
+        {
+        "id": 4,
+        "text": "What is the formula for calculating work?",
+        "options": [
+        {
+        "id": 1,
+        "label": "A",
+        "text": "W = Fd",
+        "isCorrect": true
+        },
+        {
+        "id": 2,
+        "label": "B",
+        "text": "W = Fv",
+        "isCorrect": false
+        },
+        {
+        "id": 3,
+        "label": "C",
+        "text": "W = Fs",
+        "isCorrect": false
+        },
+        {
+        "id": 4,
+        "label": "D",
+        "text": "W = Fe",
+        "isCorrect": false
+        }
+        ]
+        }   
+        ]
+    }   
+    
 ]
